@@ -39,7 +39,7 @@ class Employee:
             else:
                 total = (self.salary * self.hours) + (self.contractsNum * self.commission)
 
-            return total
+        return total
 
         
 
