@@ -3,6 +3,7 @@
 
 from unicodedata import name
 
+
 class Employee:
     def __init__(self, name, contract, salary, hours, isCommission, ComissionType, commission, contractsNum):
         self.name = name
