@@ -19,7 +19,7 @@ class Employee:
     def get_pay(self):
         total = 0
 
-        if self.isCommission == "monthly":
+        if self.contract == "monthly":
             if self.isCommission == False:
                 total = self.salary
 
