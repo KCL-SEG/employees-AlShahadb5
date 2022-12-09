@@ -77,10 +77,10 @@ class Employee:
 
 
 # Billie works on a monthly salary of 4000.  Their total pay is 4000.
-billie = Employee('Billie', "monthly", 4000, 0, False, "None", 0, 0)
+billie = Employee('Billie', "monthly", 4000, 0, False, None, 0, 0)
 
 # Charlie works on a contract of 100 hours at 25/hour.  Their total pay is 2500.
-charlie = Employee('Charlie', 'hourly', 100, 25, False, "None", 0, 0)
+charlie = Employee('Charlie', 'hourly', 100, 25, False, None, 0, 0)
 
 # Renee works on a monthly salary of 3000 and receives a commission for 4 contract(s) at 200/contract.  Their total pay is 3800.
 renee = Employee('Renee', 'monthly', 3000, 0 , True, 'contract', 200, 4)
