@@ -64,7 +64,7 @@ class Employee:
         return pay
 
     def __str__(self) :
-        string = f'{self.name} works on {str(self.contract)}'
+        string = f'{self.name} works on a contract of {str(self.contract)}'
         if self.commission:
             string += f' and receives {str(self.commission)}'
         string += f'.  Their total pay is {self.get_pay()}.'
