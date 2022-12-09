@@ -11,7 +11,7 @@ class Hourlycontract:
     def get_pay(self):
         return self.hourly_pay * self.hours
 
-    def str_(self):
+    def __str__(self):
 
         string = f'a contract of {self.hours} hours at {self.hourly_pay}/hour'
         return string
