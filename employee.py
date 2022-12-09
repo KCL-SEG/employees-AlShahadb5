@@ -48,7 +48,7 @@ class ContractCommission:
         return self.contracts * self.commission
 
     def __str__(self):
-        string = f'a commission for {self.contracts} contract(s) at {self.commission}/contract'
+        string = f'a commission for {self.contracts} contract(s) at {self.commission}/contract.'
         return string
 
 class Employee:
